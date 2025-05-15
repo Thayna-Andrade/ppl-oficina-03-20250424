@@ -1,0 +1,76 @@
+* {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 1rem;
+    box-shadow: 0rem .5rem .5rem .03rem rgb(160, 160, 160);
+    width: 25rem;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.painel {
+    padding: 1rem;
+    display: flex;
+}
+
+input {
+    flex: 2;
+    border-radius: .5rem;
+    border: 1px solid rgb(160, 160, 160);
+    padding: .5rem;
+}
+
+button {
+    flex: 1;
+    margin-left: 1rem;
+    background-color: rgb(28, 28, 126);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(58, 58, 253);
+    color: white;
+}
+
+#resposta {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.tile {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    font-weight: bolder;
+    font-size: .9rem;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Cores específicas com base na condição */
+.apto {
+    background-color: green;
+}
+
+.inapto {
+    background-color: red;
+}
